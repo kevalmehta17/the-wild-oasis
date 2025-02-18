@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Welcome / The Wild Oasis",
-  description: "Welcome to the wild oasis. A paradise on earth.",
+  description: "Experience the ultimate luxury at The Wild Oasis, a premier cabin hotel nestled in nature's embrace. Enjoy unparalleled comfort and breathtaking views.",
 };
 
 import Logo from "@/app/_components/Logo";
