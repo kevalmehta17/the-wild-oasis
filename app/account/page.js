@@ -6,7 +6,7 @@ export const generateMetadata = () => ({
 const AccountPage = () => {
   return (
     <div>
-      <h1>Account Page</h1>
+      <h2 className="font-semibold text-2xl mb-7 text-accent-400">Welcome Keval</h2>
     </div>
   );
 };
