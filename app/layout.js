@@ -17,10 +17,10 @@ console.log(josefin);
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${josefin.className} antialiased text-primary-100 bg-primary-950 min-h-screen flex flex-col`}>
+      <body className={`${josefin.className} antialiased text-primary-100 bg-primary-950 min-h-screen flex flex-col relative`}>
         <Header />
         <div className="flex-1 px-8 py-12">
-          <main className="max-w-7xl mx-auto bg-red-400">{children}</main>
+          <main className="max-w-7xl mx-auto">{children}</main>
         </div>
       </body>
     </html>
